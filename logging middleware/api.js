@@ -1,5 +1,4 @@
 const axios = require("axios");
-
 async function sendLog(logData) {
     try {
         await axios.post(
